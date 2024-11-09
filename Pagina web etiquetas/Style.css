@@ -1,0 +1,123 @@
+
+.cuerpo{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 44, 241) );
+}
+
+.h1{
+ font-size: 67px;
+ background: linear-gradient( to right, blue , red,yellow, green );
+ background-clip: text;
+ -webkit-background-clip: text;
+ color: transparent;
+}
+
+/* TABLA 1 */
+.h2{
+    font-size: 68px;
+    background: linear-gradient( to right, rgb(0, 97, 241) , rgb(10, 240, 190) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    position: relative;
+    left: auto;
+    bottom: 5px;
+
+}
+
+.container1{
+   padding: 10px;
+   text-align: left;
+   background: #03043f;
+   height: 88px;
+   width: 190px;
+   border-radius: 30px;
+   position: relative;
+   left: 240px;
+   top: 234px
+}
+/* --------------------------------------*/
+
+
+/* TABLA 2 */
+.h3{
+    font-size: 60px;
+    background-clip: text;
+    background: linear-gradient( to right, rgb(0, 97, 241) , rgb(10, 240, 190) );
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    position: relative;
+    left: auto;
+    bottom: -3px;
+}
+
+.container2{
+   padding: 10px;
+   text-align: left;
+   height: 88px;
+   background: #03043f;
+   width: 390px;
+   border-radius: 30px;
+   position: absolute;
+   left: 700px;
+   top: 400px
+   
+}
+/* --------------------------------------*/
+
+
+/* TABLA 3 */
+.h4{
+    font-size: 60px;
+    background: linear-gradient( to right, rgb(0, 97, 241) , rgb(10, 240, 190) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    position: relative;
+    left: auto ;
+    bottom: -12px;
+}
+
+.container3{
+   padding: 10px;
+   text-align: left;
+   background: #03043f;
+   height: 88px;
+   width: 300px;
+   border-radius: 30px;
+   position: absolute;
+   left: 1300px;
+   top: 400px;
+}
+/* --------------------------------------*/
+
+
+/* TABLA 4 */
+.h5{
+    font-size: 60px;
+    background: linear-gradient( to right, rgb(0, 97, 241) , rgb(10, 240, 190) );   
+     background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    position: relative;
+    left: auto;
+    bottom: -12px;
+}
+
+.container4{
+   padding: 10px;
+   text-align: left;
+   background: #03043f;
+   height: 88px;
+   width: 180px;
+   border-radius: 30px;
+   position: absolute;
+   left: 790px;
+   bottom: 111px;
+}
+/* --------------------------------------*/
+
+

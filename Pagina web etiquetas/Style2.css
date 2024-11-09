@@ -1,0 +1,631 @@
+.cuerpo{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 44, 241) );
+}
+
+.row{
+    width: 450px;
+    height: 320px;
+    background-color: hsl(0, 0%, 0%);
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(255, 0, 170);
+    margin: 2px;
+    border-radius: 11px;
+}
+
+.Texto {
+    color: rgb(255, 255, 255);
+    top: 45px;
+}
+
+/*animacion 1 */
+.cuadrado{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(182, 182, 0);
+    animation-name: animacion1;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+}
+
+ @keyframes animacion1{
+    0% {background: rgb(51, 255, 0); left: 0%; top: 0%}
+    25% {background: rgb(102, 255, 0);  left: 89%; top: 0%}
+    50% {background: rgb(102, 255, 0); left: 89%; top: 270px ;}
+    75%{background: rgb(102, 255, 0); left: 0; top: 270px ;}
+    100%{background: rgb(102, 255, 0); left: 0; top: 0 ;}
+ }
+/*-----------------------------*/
+
+/*animacion 2 */
+.cuadrado2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 60, 255);
+    animation-name: animacion2;
+    position: relative;
+    animation-delay: 3s;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+ @keyframes animacion2{
+    0% {background: rgb(0, 12, 182); left: 0%; top: 0%}
+    25% {background: rgb(0, 101, 252);  left: 89%; top: 0%}
+    50% {background: blue; left: 89%; top: 270px ;}
+    75%{background: rgb(38, 0, 255); left: 0; top: 270px ;}
+    100%{background: blue; left: 0; top: 0 ;}
+ }
+/*-----------------------------*/
+
+/*animacion 3 */
+.cuadrado3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    animation-name: animacion3;
+    position: relative;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 15px;
+
+}
+
+ @keyframes animacion3{
+    0% {background: rgb(225, 3, 3); left: 0%; top: 0%}
+    25% {background: rgb(255, 3, 3);  left: 89%; top: 0%}
+    50% {background: rgb(255, 0, 0); left: 89%; top: 245px ;}
+    75%{background: rgb(223, 0, 0); left: 0; top: 245px ;}
+    100%{background: rgb(255, 0, 0); left: 0; top: 0 ;}
+}
+/*-----------------------------*/
+
+
+
+/*animacion 4 */
+.cuadrado4{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    animation-name: animacion4;
+    position: relative;
+    animation-play-state: paused;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    margin-top: 15px;
+
+
+}
+
+ @keyframes animacion4{
+    0% {background: pink; left: 0%; top: 0%}
+    25% {background: pink;  left: 89%; top: 0%}
+    50% {background: pink; left: 89%; top: 270px ;}
+    75%{background: pink; left: 0; top: 270px ;}
+    100%{background: pink; left: 0; top: 0 ;}
+ }
+/*-----------------------------*/
+
+
+/*animacion 5 */
+.cuadrado5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(252, 6, 157);
+    animation-name: spin;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    top: 3px;
+}
+ @keyframes spin{
+    0%{transform: rotate(360deg);}
+ }
+/*-----------------------------*/
+
+
+/*animacion 6 */
+.cuadrado6{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 238, 255);
+    animation-name: bounce;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    top: 34px;
+}
+@keyframes bounce 
+{ 0%, 100% { transform: translateY(-25%); } 50% { transform: translateY(0%); } } 
+/*-----------------------------*/
+
+
+/*animacion 7 */
+.cuadrado7{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(195, 0, 255);
+    animation-name: ping;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes ping { 75%, 100% { transform: scale(2); opacity: 0; } } 
+/*-----------------------------*/
+
+/*animacion 8 */
+.cuadrado8{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(155, 155, 155);
+    animation-name: scale;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes scale { 0% { transform: scale(1); } 100% { transform: scale(1.5); } } 
+/*-----------------------------*/
+
+/*animacion 9 */
+.cuadrado9{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(94, 1, 141);
+    animation-name: reverse;
+    position: relative;
+    animation-direction: reverse;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes reverse { 0% { transform: scale(1); } 100% { transform: scale(1.5); } } 
+/*-----------------------------*/
+
+
+/*animacion 10 */
+.cuadrado10{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(254, 252, 255);
+    animation-name: zoom;
+    position: relative;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes zoom{ 
+    0% { transform: scale(2.2); transition: 8s;}
+}
+/*-----------------------------*/
+
+/*animacion 11 */
+.cuadrado11{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(121, 55, 64);
+    animation-name: des;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+@keyframes des{ 
+  0%{left: 0%; top: 0%;}
+  25% { left: 400px; top: 0px;}
+}
+/*-----------------------------*/
+
+/*animacion 12 */
+.cuadrado12{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 255, 213);
+    animation-name: des2;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+@keyframes des2{ 
+  75%{transform:scale3d(2.2); opacity: 0;}
+}
+/*-----------------------------*/
+
+/*animacion 13 */
+.cuadrado13{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(16, 36, 104);
+    animation-name: des3;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+@keyframes des3{ 
+    0%{left: 0%; top: 0%;}
+  25% { left: 400px; top: 0px;}
+  75%{transform:scale3d(3.3); opacity: 0;}
+}
+/*-----------------------------*/
+
+/*animacion 14 */
+.cuadrado14{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(139, 165, 21);
+    animation-name: des4;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+@keyframes des4{ 
+    50%{transform: rotate(90deg);}
+}
+/*-----------------------------*/
+
+/*animacion 15 */
+.cuadrado15{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 251, 12);
+    animation-name: des5;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes des5{ 
+    0%{transform:scale(1.4); transition: 2.2;}
+}
+/*-----------------------------*/
+
+/*animacion 16 */
+.cuadrado16{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(138, 15, 111);
+    animation-name: des;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+}
+
+@-webkit-keyframes des{
+    0%{-webkit-transform: translate(0px, 0px); }
+    10%{-webkit-transform: translate(20px, 0px); }
+    20%{-webkit-transform: translate(0px, 0px); }
+    30%{-webkit-transform: translate(20px, 0px); }
+    40%{-webkit-transform: translate(0px,0px); }
+    50%{-webkit-transform: translate(20px,0px); }
+    60%{-webkit-transform: translate(0px,0px); }
+    70%{-webkit-transform: translate(20px,0px); }
+    80%{-webkit-transform: translate(0px,0px); }
+    90%{-webkit-transform: translate(20px,0px); }
+    100%{-webkit-transform: translate(0px,0px); }
+}
+/*-----------------------------*/
+
+/*animacion 17 */
+.cuadrado17{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(65, 64, 32);
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+      
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+      
+@-moz-keyframes parpadeo{  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+      }
+      
+      @-webkit-keyframes parpadeo {  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+         100% { opacity: 1.0; }
+      }
+      
+      @keyframes parpadeo {  
+        0% { opacity: 1.0; }
+         50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+      }
+/*-----------------------------*/
+
+
+/*animacion 18 */
+.cuadrado18{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(65, 64, 32);
+    position: relative;
+    animation: s3 2s infinite ease-in-out;
+}
+
+@keyframes s3 {
+  0% {transform: translateX(0);}
+  50% { transform: translateX(30px) translateY(0);}
+  70% { transform: translateX(50px) translateY(-10px);}
+  100% {transform: translateX(380px) translateY(0); }
+}
+/*-----------------------------*/
+
+/*animacion 19 */
+.cuadrado19{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: rgb(54, 47, 141);
+    transform: rotate(-45deg);
+    animation: latido 1s infinite ease-in-out;
+}
+
+@keyframes latido {
+    0%, 100% {
+        transform: scale(1) rotate(1deg);
+    }
+    50% {
+        transform: scale(1.2) rotate(1deg);
+    }
+}
+/*-----------------------------*/
+
+/*animacion 20 */
+.cuadrado20{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(100, 165, 122);
+    position: relative;
+    animation: goma 2s ease-in-out infinite;
+}
+
+@keyframes goma {
+    0%{transform: scale(1, 1);}
+    30%{transform: scale(1.25, 0.75);}
+    40%{transform: scale(0.75, 1.25);}
+    50%{transform: scale(1.15, 0.85);}
+    65%{transform: scale(0.95, 1.05);}
+    75%{transform: scale(1.05, 0.95);}
+    100% {transform: scale(1, 1);}
+}
+/*-----------------------------*/
+
+/*animacion 21 */
+.cuadrado21{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(37, 17, 214);
+    position: relative;
+    animation: shake-animation 0.5s ease-in-out infinite;
+}
+
+@keyframes shake-animation {
+  0% {transform: translateX(0); }
+  10%{transform: translateX(-10px); }
+  20%{transform: translateX(-10px); }
+  30%{transform: translateX(-10px); } 
+  40% {transform: translateX(-10px); }
+  50%{transform: translateX(-10px); }
+  60%{transform: translateX(-10px); }
+  70%{transform: translateX(10px); }
+  80%{transform: translateX(-10px); }
+  90%{transform: translateX(-10px); }
+  100%{transform: translateX(0); }
+}
+/*-----------------------------*/
+
+/*animacion 22 */
+.cuadrado22{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(248, 211, 0);
+    position: relative;
+    animation: gelatina 1.5s ease-in-out infinite;
+}
+
+
+@keyframes gelatina {
+    0%{transform: scale(1, 1);}
+    25% {transform: scale(1.25, 0.75);}
+    50% {transform: scale(0.75, 1.25); }
+    75% {transform: scale(1.15, 0.85); }
+    100%{transform: scale(1, 1);}
+}
+/*-----------------------------*/
+
+/*animacion 23 */
+.cuadrado23{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(73, 1, 13);
+    position: relative;
+    animation: tada 1s ease-in-out infinite;
+}
+
+@keyframes tada {
+    0% { transform: scale(1); }
+    10% { transform: scale(0.9) rotate(-3deg); }
+    20% { transform: scale(0.9) rotate(-3deg); }
+    30%{ transform: scale(1.1) rotate(3deg); }
+    40% { transform: scale(1.1) rotate(-3deg); }
+    50%{ transform: scale(1.1) rotate(3deg); }
+    60% { transform: scale(1.1) rotate(-3deg); }
+    70% { transform: scale(1.1) rotate(3deg); }
+    80% { transform: scale(1.05) rotate(3deg); }
+    100% { transform: scale(1); }
+}
+/*-----------------------------*/
+
+/*animacion 24 */
+.cuadrado24{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(56, 58, 172);
+    position: relative;
+    animation: left 2s infinite;
+    left: 100px;
+}
+
+@keyframes left {
+    0%{transform: translateX(0);}
+    25% {transform: translateX(-30px);}
+    50% {transform: translateX(-60px);}
+    75% {transform: translateX(-30px);}
+    100% { transform: translateX(0);}
+}
+/*-----------------------------*/
+
+/*animacion 25 */
+.cuadrado25{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(92, 100, 95);
+    position: relative;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%{transform: translateX(0);}
+  50% {transform: translateX(300px);}
+  100% {transform: translateX(0);}
+}
+/*-----------------------------*/
+
+/*animacion 26 */
+.cuadrado26{
+    width: 50px;
+    height: 50px;
+;
+    background-color: rgb(46, 56, 49);
+    position: relative;
+    animation: rebote 2s ease infinite;
+}
+
+@keyframes rebote {
+    0% {bottom: 0px; }
+    50% {bottom: 200px; }
+    100% {bottom: 0px; }
+}
+/*-----------------------------*/
+
+/*animacion 27 */
+.cuadrado27{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(7, 102, 39);
+    position: relative;
+    animation: bounce-down 2s infinite;
+}
+
+@keyframes bounce-down {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% { transform: translateY(150px);}
+  60% {transform: translateY(75px);}
+}
+/*-----------------------------*/
+
+/*animacion 28 */
+.cuadrado28{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(55, 90, 10);
+    position: relative;
+    animation: fade 1s ; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    0% {opacity: 0; transform: translateX(-100%);}
+    100% { opacity: 1;transform: translateX(0);}
+}
+/*-----------------------------*/
+
+/*animacion 30*/
+.cuadrado30{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(7, 102, 39);
+    position: relative;
+    animation: fadeIn 1s forwards; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(100px);}
+    100% {opacity: 1; transform: translateX(0);}
+}
+/*-----------------------------*/
+
+/*animacion 31 */
+.cuadrado31{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(25, 106, 126);
+    position: relative;
+    transform: translateY(-20px);
+    animation: fadeIn 1s forwards;
+    animation-iteration-count:infinite ; 
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(0); }
+}
+/*-----------------------------*/
+
+/*animacion 32 */
+.cuadrado32{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(37, 241, 105);
+    position: relative;
+    animation: fadeInUp 1s forwards;
+    animation-iteration-count:infinite ;
+}
+
+@keyframes fadeInUp {
+    0% {transform: translateY(100%); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1; }
+}
+/*-----------------------------*/
+
+/*animacion 33 */
+.cuadrado33{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(62, 87, 70);
+    position: relative;
+    transform: translateX(-100%);
+    animation: slideIn 0.5s forwards;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes slideIn {
+    0%{ transform: translateX(0); /* Desliza al lugar original */
+    }
+}
+/*-----------------------------*/
+
+/*animacion 37*/
+.cuadrado{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(7, 102, 39);
+    position: relative;
+    animation: shake-animation 0.5s ease-in-out infinite;
+}

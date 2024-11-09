@@ -1,0 +1,53 @@
+.cuerpo{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 44, 241) );
+}
+
+
+.imagen1{
+    width: 600px;
+    filter: blur(6px);
+}
+
+.imagen2{
+    width: 600px;
+    position: relative;
+    top: 5px;
+    filter: brightness(10);
+}
+
+.imagen3{
+    width: 500px;
+    position: relative;
+    top: 5px;
+    filter: contrast(100);
+}
+
+.imagen4{
+    width: 600px;
+    position: relative;
+    top: 5px;
+    filter:grayscale();
+}
+
+.imagen5{
+    width: 600px;
+    position: relative;
+    top: 5px;
+    filter:invert();
+}
+
+.imagen6{
+    width: 600px;
+    position: relative;
+    top: 5px;
+    filter:saturate(2000000000);
+}
+
+.imagen7{
+    width: 600px;
+    position: relative;
+    top: 5px;
+    filter:sepia();
+    position: relative;
+    left: 600px;
+}
